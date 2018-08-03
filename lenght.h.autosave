@@ -1,0 +1,22 @@
+#ifndef LENGHT_H
+#define LENGHT_H
+
+
+class lenght
+{
+    unsigned int L;
+public:
+    //distruttore
+    lenght();
+    lenght(unsigned int);
+    unsigned int get_m();
+    unsigned int get_cm();//dio cane i const
+    unsigned int get_dm();
+    unsigned int get_km();
+    
+   //overloading operatori
+};
+
+//overloading operatori di output
+
+#endif // LENGHT_H

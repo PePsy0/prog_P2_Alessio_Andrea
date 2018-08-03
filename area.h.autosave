@@ -1,0 +1,20 @@
+#ifndef AREA_H
+#define AREA_H
+
+
+class area
+{
+    unsigned int width;
+public:
+    area();
+    area(unsigned int);
+    area(unsigned int, unsigned int);
+    unsigned int get_ettaro();
+    unsigned int get_mm2();
+    unsigned int get_d2(); //superfluo?
+    unsigned int get_m2();
+    unsigned int get_km2();
+    
+};
+
+#endif // AREA_H
